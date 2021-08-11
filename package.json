@@ -1,0 +1,28 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "This is a meduim kind of application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajneesh-9088/blog-app.git"
+  },
+  "author": "Rajneesh Kumar Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rajneesh-9088/blog-app/issues"
+  },
+  "homepage": "https://github.com/Rajneesh-9088/blog-app#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  }
+}
